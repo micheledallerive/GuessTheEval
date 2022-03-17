@@ -1,0 +1,24 @@
+html,body{
+  height:100%
+}
+#root{
+  height:100%!important;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.chessboard>div:first-child{
+  width:600px!important;
+  height:600px!important;
+}
+
+.close_icon{
+  color:#282c34;
+}
+
+.close_icon{
+  color:red;
+  text-shadow: 2px 2px 2px red;
+}
